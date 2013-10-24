@@ -9,4 +9,22 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Mana::Application.config.secret_key_base = '394815ce721fb49f3e2a3800f90498c0d0070b63602473b06fa11461ecc121ef1d9883fbaa9140f6944f4fee44df51164fb3d9308006c3b858f0492ca02b232d'
+
+
+def secure_token
+	token_file = Rails.root.join('.secret')
+	if File.exist?(token_file)
+		# Use the existing token
+		File.read(token_file).chomp
+	else
+		# Generate a new token and store it in the token file
+		token - SecureRandom.hex(64)
+		File.write(token_file, token)
+		token
+	end
+end
+
+
+
+
+Mana::Application.config.secret_key_base = secure_token
