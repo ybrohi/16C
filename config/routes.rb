@@ -1,4 +1,5 @@
 Mana::Application.routes.draw do
+  get "users/new"
   get "mast_head/home"
   get "mast_head/help"
   get "mast_head/about"
