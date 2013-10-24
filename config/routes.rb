@@ -1,8 +1,11 @@
 Mana::Application.routes.draw do
   get "users/new"
-  get "mast_head/home"
-  get "mast_head/help"
-  get "mast_head/about"
+
+  root 'mast_head#home'
+  match '/help', to: 'mast_head#help', via: 'get'
+  match '/about', to: 'mast_head#about', via: 'get'
+
+  match '/signup', to: 'users#new', via: 'get'
 
 
   
