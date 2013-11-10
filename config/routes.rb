@@ -1,11 +1,15 @@
 Mana::Application.routes.draw do
-  get "users/new"
+  #get "users/new"
+
+resources :users
 
   root 'mast_head#home'
+
   match '/help', to: 'mast_head#help', via: 'get'
   match '/about', to: 'mast_head#about', via: 'get'
 
   match '/signup', to: 'users#new', via: 'get'
+  match '/index', to: 'users#index', via: 'get'
 
 
   

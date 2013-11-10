@@ -11,25 +11,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131023233125) do
-
-  create_table "reviews", force: true do |t|
-    t.string   "content"
-    t.integer  "user_id"
-    t.integer  "rating"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
+ActiveRecord::Schema.define(version: 20131024233507) do
 
   create_table "users", force: true do |t|
     t.string   "gender"
-    t.string   "yob"
+    t.integer  "yob"
     t.string   "claid"
     t.string   "lid"
-    t.string   "zip"
+    t.integer  "score"
+    t.string   "karma"
+    t.string   "password_digest"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "password_digest"
   end
 
 end
