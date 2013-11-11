@@ -27,7 +27,7 @@ textarea {
   color: #fff;
   text-transform: uppercase;
   letter-spacing: -1px;
-  padding-top: 9px;
+  padding-top: 15px;
   font-weight: bold;
   line-height: 1;
 }
@@ -67,3 +67,63 @@ footer ul li {
   float: left;
   margin-left: 10px;
 }
+
+
+
+.navbar-wrapper {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 10;
+      margin-top: 20px;
+      margin-bottom: -90px; 
+    }
+    .navbar-wrapper .navbar {
+
+    }
+
+    .navbar .navbar-inner {
+      border: 0;
+      -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+         -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+              box-shadow: 0 2px 10px rgba(0,0,0,.25);
+    }
+
+
+    .navbar .brand {
+      padding: 5px 20px 16px; 
+      font-size: 16px;
+      font-weight: bold;
+    
+      max-height: 35px;
+      text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+    }
+
+
+    .navbar .nav > li > a {
+      padding: 15px 20px;
+    }
+
+    .navbar .btn-navbar {
+      margin-top: 10px;
+    }
+
+  .jumbotron {
+        margin: 80px 0;
+        text-align: center;
+        padding-bottom: 50px;
+      }
+      .jumbotron h1 {
+        font-size: 100px;
+        line-height: 1;
+      }
+      .jumbotron .lead {
+        font-size: 24px;
+        line-height: 1.25;
+      }
+      .jumbotron .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+      }
+
