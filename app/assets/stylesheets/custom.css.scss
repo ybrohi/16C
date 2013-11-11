@@ -27,7 +27,7 @@ textarea {
   color: #fff;
   text-transform: uppercase;
   letter-spacing: -1px;
-  padding-top: 15px;
+  padding-top: 15px; 
   font-weight: bold;
   line-height: 1;
 }
@@ -40,9 +40,11 @@ textarea {
 /* footer */
 
 footer {
+
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
+
   color: #999;
 }
 
@@ -92,11 +94,11 @@ footer ul li {
 
 
     .navbar .brand {
-      padding: 5px 20px 16px; 
+      
+      padding: 2px 15px 7px; 
       font-size: 16px;
       font-weight: bold;
-    
-      max-height: 35px;
+      max-height: 0px;
       text-shadow: 0 -1px 0 rgba(0,0,0,.5);
     }
 
