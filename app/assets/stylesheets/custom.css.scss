@@ -7,6 +7,7 @@ html {
 }
 
 body {
+
   padding-top: 60px;
 }
 
@@ -41,9 +42,10 @@ textarea {
 
 footer {
 
-  margin-top: 45px;
+  width: inherit;
+  margin-top: 145px;
   padding-top: 5px;
-  border-top: 1px solid #eaeaea;
+  border-top: 1px solid #ffffff;
 
   color: #999;
 }
@@ -111,11 +113,15 @@ footer ul li {
       margin-top: 10px;
     }
 
-  .jumbotron {
+
+    .jumbotron {
+
+        background-color: #e6e6e6;
         margin: 80px 0;
         text-align: center;
         padding-bottom: 50px;
       }
+
       .jumbotron h1 {
         font-size: 100px;
         line-height: 1;
