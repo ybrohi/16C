@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
 /* universal */
 
@@ -24,9 +25,9 @@ textarea {
 #logo {
   float: left;
   margin-right: 10px;
-  font-size: 1.7em;
-  color: #fff;
-  text-transform: uppercase;
+  font-family: 'open sans', serif;
+  font-size: 24px;
+  color: #B2B2B2;
   letter-spacing: -1px;
   padding-top: 15px; 
   font-weight: bold;
@@ -34,8 +35,9 @@ textarea {
 }
 
 #logo:hover {
-  color: #fff;
+  color: #999999;
   text-decoration: none;
+  border-bottom: 4px solid #c7c;
 }
 
 /* footer */
@@ -111,6 +113,11 @@ footer ul li {
 
     .navbar .btn-navbar {
       margin-top: 10px;
+    }
+
+    .container {
+      height: auto;
+
     }
 
 
