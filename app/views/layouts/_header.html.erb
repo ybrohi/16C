@@ -1,16 +1,31 @@
  <header class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class="container">
+  <div class="container-fluid">
     <div class="navbar-inner">
-      <%= link_to "Safestreets", root_path , id: "logo"  %>
-            
+      <%= link_to "16 Circles", root_path , id: "logo"  %>
             <ul class="nav navbar-nav navbar-right">
-              <li><%= link_to "Philosophy", '#' %></li>
-              <li><%= link_to "Services",    '#' %></li>
-              <li><%= link_to "Brand",    '#' %></li>
-              <li><%= link_to "Government", '#' %></li>
-              <li><%= link_to "Portend", '#' %></li>
-                          </ul>
+              <li><%= link_to "Strategy", '/strategy' %></li>
+              <li><%= link_to "@gency",    '/agency' %></li>
+              <li><%= link_to "Soc!al",    '/social' %></li>
+              <li><%= link_to "#Urban", '/urban' %></li>
+              <li><%= link_to "Collaborate", '/collaborate' %></li>
+              <% if user_signed_in? %>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><%= current_user.email %><b class="caret"></b></a>
+            <ul class="dropdown-menu">
+            <li><%= link_to "Profile", current_user %></li>
+            <li class="divider"></li>
+            <li><%= link_to 'Logout', destroy_user_session_path, method: :delete %></li>
+          </ul>
+        </ul>
+        <ul class="navbar-brand">
+        </li>
+            <% else %>
+            <li><%= link_to 'Signup', new_user_registration_path %> </li>
+            <li><%= link_to 'Login', new_user_session_path %> </li>
+            <% end %>
+      </ul>
           </nav>
         </div>
       </div>
     </header>
+

@@ -5,6 +5,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.0'
 gem 'bootstrap-sass'
 gem 'sprockets', '2.11.0'
+gem 'devise'
 
 group :development do
 	gem 'sqlite3', '1.3.7'

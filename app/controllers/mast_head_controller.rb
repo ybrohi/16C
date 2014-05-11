@@ -10,5 +10,26 @@ class MastHeadController < ApplicationController
 
   def contact
   end
+
+  def strategy
+  end
+
+  def agency
+  end
+
+  def social
+  end
+
+  def urban
+  end
+
+  def collaborate
+  end
+
+  def opencall
+  end
+
+  def faqs
+  end
   
 end

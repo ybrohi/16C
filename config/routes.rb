@@ -1,4 +1,5 @@
 Mana::Application.routes.draw do
+  devise_for :users
   #get "users/new"
 
 resources :users
@@ -10,6 +11,21 @@ resources :users
 
   match '/signup', to: 'users#new', via: 'get'
   match '/index', to: 'users#index', via: 'get'
+
+  match '/strategy', to: 'mast_head#strategy', via: 'get'
+
+  match '/agency', to: 'mast_head#agency', via: 'get'
+
+  match '/social', to: 'mast_head#social', via: 'get'
+
+  match '/urban', to: 'mast_head#urban', via: 'get'
+
+  match '/collaborate', to: 'mast_head#collaborate', via: 'get'
+
+  match '/opencall', to: 'mast_head#opencall', via: 'get'
+
+
+  
 
 
   
