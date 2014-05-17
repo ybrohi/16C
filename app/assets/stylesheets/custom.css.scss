@@ -1,5 +1,7 @@
 @import "bootstrap";
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Lato:100|Open+Sans:300);
 
 /* universal */
 
@@ -9,7 +11,7 @@ html {
 
 body {
 
-  padding-top: 60px;
+  padding-top: 00px;
 }
 
 section {
@@ -22,61 +24,38 @@ textarea {
 
   /* header */
 
-#logo {
+.logo2 {
   float: left;
-  margin-right: 10px;
+  margin-left: 10px;
   font-family: 'open sans', serif;
   font-size: 24px;
-  color: #B2B2B2;
-  letter-spacing: -1px;
-  padding-top: 15px; 
   font-weight: bold;
+  color: #B2B2B2;
+
+  letter-spacing: 3px;
+  padding-top: 15px; 
   line-height: 1;
 }
 
-#logo:hover {
-  color: #999999;
+.logo2:hover {
+  color: #B2B;
   text-decoration: none;
   border-bottom: 4px solid #c7c;
 }
 
-/* footer */
-
-footer {
-
-  width: inherit;
-  margin-top: 145px;
-  padding-top: 5px;
-  border-top: 1px solid #ffffff;
-
-  color: #999;
+.carousel-caption {
+  background-color:rgba(0, 0, 0, 0.5)
 }
 
-footer a {
-  color: #555;
-}
 
-footer a:hover {
-  color: #222;
-}
 
-footer small {
-  float: left;
-}
-
-footer ul {
-  float: right;
-  list-style: none;
-}
-
-footer ul li {
-  float: left;
-  margin-left: 10px;
-}
+/*  signup form */
 
 .formit {
   text-align: center;
 }
+
+
 
 .container {
 height: auto;
@@ -113,6 +92,107 @@ padding-bottom: 50px;
         padding: 14px 24px;
       }
 
+/* Iphone Screen Size to 767 pixels */  
+
+@media (max-width: 767px) {
+.navbar-brand {
+ display: none;
+  }
+
+.logo2 {
+  display: inherit;
+
+}
+
+}
+
+/* Ipad or Larger Screen Size */
+
+@media (min-width: 768px) {
+.navbar-brand {   
+  overflow: visible;
+  padding-top: 0;
+  padding-bottom: 0;
+  z-index: 1;
+}
+
+.logo2 {
+  display: none;
+
+}
+}
+
+.navbar {
+  z-index: 10000;
+  background-color: transparent;
+  background: transparent;
+  border: none;
+}
+
+.navbar-inner .nav > li > a {
+  color: #00b3b7;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: open-sans-light;
+}
+
+.contentful {
+  padding-top: 120px;
+  padding-left: 15px;
+}
+
+.contentful h1 {
+  width: auto;
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 300;
+  letter-spacing: -2px;
+  color: #bdbdbd;
+  font-size: 50px;
+  margin-bottom: -20px;
+
+}
+
+.contentful h2 {
+  width: auto;
+  font-family: lato,sans-serif;
+  font-weight: 100;
+  font-size: 36;
+  color: #737373;
+}
+
+.contentful h2 + p {
+  width: auto;
+  padding-top: 10px;
+  font-size: 18px;
+  font-family: lato,sans-serif;
+  font-weight: 300;
+  color: #000000;
+}
+
+#contentful, #firstbox {
+  position: relative;
+}
+
+#contentful, #secondbox {
+  max-height: none;
+  padding-top: 60px;
+  width: auto;
+  font-family: lato,sans-serif;
+  font-weight: 100;
+  font-size: 18px;
+  color: #ffa500;
+}
+
+/*
+
+.navbar {
+
+  background-color: transparent;
+  background: transparent;
+
+    }
+
+/*
 
 .navbar-wrapper {
       position: absolute;
@@ -123,7 +203,10 @@ padding-bottom: 50px;
       margin-top: 20px;
       margin-bottom: -50px; 
     }
-    .navbar-wrapper .navbar {
+
+
+   /* .navbar-wrapper .navbar {
+
 
     }
 
@@ -135,15 +218,6 @@ padding-bottom: 50px;
     }
 
 
-    .navbar .brand {
-      
-      padding: 2px 15px 7px; 
-      font-size: 16px;
-      font-weight: bold;
-      max-height: 0px;
-      text-shadow: 0 -1px 0 rgba(0,0,0,.5);
-    }
-
 
     .navbar .nav > li > a {
       padding: 15px 20px;
@@ -152,7 +226,41 @@ padding-bottom: 50px;
     .navbar .btn-navbar {
       margin-top: 10px;
     }
+*/
 
-    
+/* 
+
+footer {
+
+  width: inherit;
+  margin-top: 145px;
+  padding-top: 5px;
+  border-top: 1px solid #ffffff;
+
+  color: #999;
+}
+
+footer a {
+  color: #555;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 10px;
+}
+    */
       
 
