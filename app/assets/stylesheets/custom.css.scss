@@ -51,11 +51,35 @@ textarea {
 
 /*  signup form */
 
-.formit {
-  text-align: center;
+.formario {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 16px;
+  font-family: lato,sans-serif;
+  font-weight: 100;
+  color: #737373;
+}
+
+.formarion{
+  width: auto;
+  font-family: lato,sans-serif;
+  font-weight: 100;
+  font-size: 24;
+  color: #737373;
+  margin-bottom: 0px;
+}
+
+.boxy {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  margin-bottom: 5px;
 }
 
 
+/* Layout */
 
 .container {
 height: auto;

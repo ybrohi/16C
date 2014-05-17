@@ -22,7 +22,7 @@ resources :users
 
   match '/collaborate', to: 'mast_head#collaborate', via: 'get'
 
-  match '/opencall', to: 'mast_head#opencall', via: 'get'
+  match '/SafeStreets', to: 'mast_head#safestreets', via: 'get'
 
 
   

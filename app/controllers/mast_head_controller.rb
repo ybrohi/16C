@@ -26,10 +26,10 @@ class MastHeadController < ApplicationController
   def collaborate
   end
 
-  def opencall
+  def faqs
   end
 
-  def faqs
+  def safestreets
   end
   
 end
