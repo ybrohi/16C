@@ -24,6 +24,12 @@ resources :users
 
   match '/SafeStreets', to: 'mast_head#safestreets', via: 'get'
 
+  match '/safestreets', to: 'mast_head#safestreets', via: 'get'
+
+  match '/Safestreets', to: 'mast_head#safestreets', via: 'get'
+
+  match '/safeStreets', to: 'mast_head#safestreets', via: 'get'
+
 
   
 
