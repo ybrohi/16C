@@ -1,16 +1,57 @@
 <% provide(:title, 'Home') %>
 
-<div class="carousel-inner">
-    <div class="item active">
+<body>
 
+<div id="carousel16c" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carousel16c" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel16c" data-slide-to="1"></li>
+    <li data-target="#carousel16c" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="item active">
       <%= image_tag("SS.jpg") %>
       <div class="carousel-caption">
         <h2>SafeStreets - Pakistan</h2>
-  <h4>Open call for prospective user feedback<h4>
-  <h5>Join us in developing a platform for citizen safety<h5>
-    <a class="btn btn-success" href="<%= '/urban' %>" role="button">View details.</a>
-</div>
-</div>
+          <h4>Open call for prospective user feedback<h4>
+            <h5>Join us in developing a platform for citizen safety<h5>
+              <a class="btn btn-success" href="<%= '/urban' %>" role="button">View details.</a>
+          </div>
+        </div>
+    <div class="item">
+        <%= image_tag("Pulse.jpg") %>
+        <div class="carousel-caption">
+          <h2>Digital Disruption</h2>
+            <h4>"There are no sanctuaries left" - Eric Ries <h4>
+              <h5>See how 16 Circles is helping organizations align and transform<h5>
+              <a class="btn btn-success" href="<%= '/urban' %>" role="button">View details.</a>
+            </div>
+        </div>
+          <div class="item">
+        <%= image_tag("Urb.jpg") %>
+         <div class="carousel-caption">
+          <h2>Cities of Tomorrow</h2>
+            <h4>Report on Transitory Living <h4>
+              <h5>How does startup thinking plan for societal change?<h5>
+              <a class="btn btn-success" href="<%= '/urban' %>" role="button">View details.</a>
+            </div>
+        </div> 
+      </div> <!-- Carousel-Inner -->
+       <!-- Carousel Navigation -->
+  <a class="left carousel-control" href="#carousel16c" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel16c" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div> <!-- Carousel16c -->
+
+<script>
+$('.carousel16c').carousel()
+</script>
+</body>
+
+
 
 <!-- <div class="jumbotron">
 

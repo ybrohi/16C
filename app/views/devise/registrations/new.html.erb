@@ -11,14 +11,14 @@
   <%= devise_error_messages! %>
 
   <div><%= f.label :firstname, "First Name", class: "formarion" %><br>
-  <%= f.text_field :firstname, class: "boxy" %></div>
+  <%= f.text_field :firstname, autofocus: true, class: "boxy" %></div>
 
 
   <div><%= f.label :lastname, "Last Name", class: "formarion" %><br>
   <%= f.text_field :lastname, class: "boxy" %></div>
 
   <div><%= f.label :email, class: "formarion" %><br>
-  <%= f.email_field :email, autofocus: true, class: "boxy" %></div>
+  <%= f.email_field :email, class: "boxy" %></div>
 
 
    <div><%= f.label :yearofbirth, "Year of Birth", class: "formarion" %><br>
