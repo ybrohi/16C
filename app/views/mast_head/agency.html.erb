@@ -4,28 +4,52 @@
 <div class="container-fluid">
 	<div class="contentful">
 			<div class="row">
-				<div id="firstbox" class="col-xs-12 col-sm-6 col-md-8">
+				<div id="firstbox" class="col-md-8">
 					<h1> @gency <h1>
 					<hr class="underline">
 					<h2>Human-centered design & development</h2>
+
+					<p> Today, every business is digital and can be equipped to make better data-driven decisions. Impactful, interactive communication shapes, and is at the core of the ideal customer experience. Melding the online and offline components of a communication strategy into a cohesive nucleus involves intricate interplay. Our strategy-driven design approach starts with focusing on the <em>'what'</em> while dismissing all other constraints. Only by doing so can we effectively apply a thorough perspective which unlocks invaluable insights leading to effective innovation and revealing the optimal <a class="summon" data-toggle="modal" data-target="#aghow">'how'</a>.</p>
+
+					<p>In an increasingly mobile and individualized world, communication has to be tailored for people and not screens. Our methodology combines human-centered design techniques with efficient development capabilities and lean principles to conceptualize ideas, prototype rapidly, collaborate constructively, iterate frequently, measure performance, minimize waste and validate everything judiciously to craft unique solutions and deliver unparalleled value.</p>
+
+					<p> Download the pdf or contact us via the link to learn more about the inextricable link between design and development in the digital age. </p>
 				</div>
-			</div>
+			<div id="secondbox" class="col-md-4">
+				<div class="resources">
+					<h5> Downloads </h5>
 				<div>
-					<hr class="grade">
-	<!-- <ul class"list-group">
-		
-
-	<li class="list-group-item">works globally</li>
-	<li class="list-group-item">embraces #designthinking</li>
-	<li class="list-group-item">designs for people, not mediums</li>
-	<li class="list-group-item">knows 'what' is as important as 'how'</li>
-	<li class="list-group-item">follows lean principles</li>
-	<li class="list-group-item">validates everything</li>
-
-</ul> -->
+				<div class="Contact">
+					<h5> Contact: </h5>
+				 <%= mail_to "agency@16circles.com" %> 
+				</div>
+				<div class="socializer" id="propagate">
+					<h5> Share </h5>
+					<div class="social">
+						<%= link_to (image_tag("facebook.png", :alt => "FB", size: "35x35", :class => "socialfilt")), "https://www.facebook.com/dialog/feed?app_id=245200332347570&link=http%3A%2F%2Fwww.16circles.com%2FSafeStreets&name=SafeStreets&redirect_uri=http%3A%2F%2Fs7.addthis.com%2Fstatic%2Fpostshare%2Fc00.html", :target => "_blank" %>
+			
+						<%= link_to (image_tag("twitter.png", :alt => "Tweet", size: "35x35", :class => "socialfilt")), "https://twitter.com/share", :target => "_blank" %>
+					</div>
+				</div>
+				<!-- Modal -->
+				<div class="modal fade" id="aghow" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">How we make things -</h4>
+      </div>
+      <div class="modal-body">
+      	<br>
+        Illustrations or photographs? Open source or proprietary? Backbone.js or Angular.js? Ethnographical or anthropological? <br><br>
+		Approaching a problem with a limited set of predefined tools will result in a less-than-optimal solution. Having flexibility at this juncture is critical to the quality and efficacy of the desired solution.<br><br>The approach we take, and the tools, media and technology we employ is determined directly by the strategy we conjointly formulate. Strategy-driven design mandates ‘how’ we accomplish something is a result of ‘what’ we are trying to achieve.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+    </div>
+  </div>
+				</div>
 </div>
 
-
-
-
-</p>

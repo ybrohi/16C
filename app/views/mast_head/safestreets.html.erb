@@ -9,9 +9,12 @@
 					<hr class="underline">
 					<h2>A portal to a smarter, safer city.</h2>
 
-					<p> Pakistan is a deeply fragmented country struggling to cope with internal and external stressors. The manifestation of these circumstances is more evident in the major cities. Karachi, the 7th largest city in the world - by population - has been labeled the most dangerous megacity in the world<br><br>
+					<p> Pakistan is a deeply fragmented country struggling to cope with internal and external stressors. The manifestation of these circumstances is more evident in the major cities. Karachi, the 7th largest city in the world - by population - has been labeled the most dangerous megacity in the world. With security being a systemic issue, we're exploring whether distributed technology can make citizens safer.<br><br>
 
-					Our current experiment is premised on collaboration and knowledge. Safestreets is envisioned as a virtual, cloud based, citizen portal to enable residents to monitor the pulse of the city, and also plan, organize, develop and distribute constructive tasks which should result in a more stable and secure environment. The prototype will be an app which will expand on its core functionality incrementally with plans to launch adjunct initiatives concurrently. <br><br> Make yourself, your family, your friends and your city safer.</p>
+					Our current experiment, in its research phase, is premised on collaboration and knowledge. Safestreets is envisioned as a cloud-based citizen portal to enable residents to monitor the pulse of the city, and contribute information and ideas to a public intelligence platform. The prototype will be an app to initially setup a personal protection and notification network. It will expand on its core functionality incrementally by extending its capability via updates. <br><br>
+					We're reaching out to currently connected citizens to gauge the environment as perceived by you. This feedback will not only provide statistics for analysis, but shape current and future products in our roadmap.<br><br>
+
+					Help us try to make your city safer.</p>
 
 					<a class="btn btn-default btn-info" <%= link_to "Take the Survey (4 minutes)", "https://docs.google.com/forms/d/1W1amIGpGIttZiA6yDTaGG6ScgaRu9AEBECSyYhStxCc/viewform?usp=send_form", :target => "_blank" %> </a>
 					</div>
@@ -19,26 +22,28 @@
 
 
 				<div id="secondbox" class="col-md-4">
-						<h4> Share </h4>
-						<div class="fb-share-button" data-href="http://www.16circles.com/SafeStreets" data-width="45" data-type="icon"></div> <br>
+					<div class="resources">
+						<h5> Downloads </h5>
+					</div>
+					<div class="Contact">
+					<h5> Contact: </h5>
+				 <%= mail_to "safestreets@16circles.com" %> 
+				</div>
+					<div class="socializer" id="propagate">
+						<h5> Share </h5>
+						<div class="social">
 
-						<%= link_to(image_tag("social19.png", :alt => "Tweet", size: "45x45", :class => "twittersh", :target => "_blank"), "https://twitter.com/share") %>
+						<%= link_to (image_tag("facebook.png", :alt => "FB", size: "35x35", :class => "socialfilt")), "https://www.facebook.com/dialog/feed?app_id=245200332347570&link=http%3A%2F%2Fwww.16circles.com%2FSafeStreets&name=SafeStreets&redirect_uri=http%3A%2F%2Fs7.addthis.com%2Fstatic%2Fpostshare%2Fc00.html", :target => "_blank" %>
+			
+						<%= link_to (image_tag("twitter.png", :alt => "Tweet", size: "35x35", :class => "socialfilt")), "https://twitter.com/share", :target => "_blank" %>
+
 						</div>
+					</div>
+						
 						</div>
-
-				</body>
-
-<!-- <div id="fb-root"></div> -->
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-
-
+					</div>
+				</div>
+			</body>
 
 
 
