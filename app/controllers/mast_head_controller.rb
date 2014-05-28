@@ -34,5 +34,11 @@ class MastHeadController < ApplicationController
 
   def design
   end
+
+  def development
+  end
+
+  def data
+  end
   
 end

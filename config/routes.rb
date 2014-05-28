@@ -16,7 +16,11 @@ resources :users
 
   match '/agency', to: 'mast_head#agency', via: 'get'
 
-   match '/design', to: 'mast_head#design', via: 'get'
+  match '/design', to: 'mast_head#design', via: 'get'
+
+  match '/development', to: 'mast_head#development', via: 'get'
+
+  match '/data', to: 'mast_head#data', via: 'get'
 
   match '/social', to: 'mast_head#social', via: 'get'
 
