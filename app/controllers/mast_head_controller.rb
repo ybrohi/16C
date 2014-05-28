@@ -31,5 +31,8 @@ class MastHeadController < ApplicationController
 
   def safestreets
   end
+
+  def design
+  end
   
 end

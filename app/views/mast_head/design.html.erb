@@ -1,0 +1,47 @@
+<% provide(:title, 'Design') %>
+
+<div class="container-fluid">
+	<div class="contentful">
+			<div class="row">
+				<div id="firstbox" class="col-md-9">
+					<h1> @gency <h1>
+					<hr class="underline">
+					<h2>Human-centered design & development</h2>
+					<div class="subsub">
+						<ul class=" nav nav-tabs nav-justified">
+						<li> <%= link_to "@gency", '/agency' %></li>
+						<li class="active"><%= link_to "Design", '/design' %></li>
+						<li><a href="#">Development</a></li>
+					</ul>
+					</div>
+					<br>
+					<br>
+<p> The standard Lorem Ipsum passage, used since the 1500s<br>
+<br>
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."<br><br>
+
+Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC<br><br>
+
+"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"<br><br>
+
+1914 translation by H. Rackham<br></p>
+
+					<p> Download the pdf or contact us via the link to learn more about the inextricable link between design and development in the digital age. </p>
+				</div>
+			<div id="secondbox" class="col-md-3">
+				<div class="resources">
+					<h5> Downloads </h5>
+					<%= link_to (image_tag("dl-cover-agency.jpg", :alt => "Download the pdf", size: "100x50", :class => "img-thumbnail")) %>
+				<div>
+				<div class="Contact">
+					<h5> Contact: </h5>
+				 <%= mail_to "agency@16circles.com" %> 
+				</div>
+				<div class="socializer" id="propagate">
+					<h5> Share </h5>
+					<div class="social">
+						<%= link_to (image_tag("facebook.png", :alt => "FB", size: "35x35", :class => "socialfilt")), "https://www.facebook.com/dialog/feed?app_id=245200332347570&link=http%3A%2F%2Fwww.16circles.com%2FSafeStreets&name=SafeStreets&redirect_uri=http%3A%2F%2Fs7.addthis.com%2Fstatic%2Fpostshare%2Fc00.html", :target => "_blank" %>
+			
+						<%= link_to (image_tag("twitter.png", :alt => "Tweet", size: "35x35", :class => "socialfilt")), "https://twitter.com/share", :target => "_blank" %>
+					</div>
+				</div>

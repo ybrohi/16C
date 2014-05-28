@@ -1,13 +1,21 @@
 <% provide(:title, 'Agency') %>
 
-
-<div class="container-fluid">
+  <div class="container-fluid">
 	<div class="contentful">
 			<div class="row">
-				<div id="firstbox" class="col-md-8">
+				<div id="firstbox" class="col-md-9">
 					<h1> @gency <h1>
 					<hr class="underline">
 					<h2>Human-centered design & development</h2>
+					<div class="subsub">
+						<ul class=" nav nav-tabs nav-justified">
+						<li class="active"><a href="#">@gency</a></li>
+						<li><%= link_to "Design", '/design' %></li>
+						<li><a href="#">Development</a></li>
+					</ul>
+					</div>
+					<br>
+					<br>
 
 					<p> Today, every business is digital and can be equipped to make better data-driven decisions. Impactful, interactive communication shapes, and is at the core of the ideal customer experience. Melding the online and offline components of a communication strategy into a cohesive nucleus involves intricate interplay. Our strategy-driven design approach starts with focusing on the <em>'what'</em> while dismissing all other constraints. Only by doing so can we effectively apply a thorough perspective which unlocks invaluable insights leading to effective innovation and revealing the optimal <a class="summon" data-toggle="modal" data-target="#aghow">'how'</a>.</p>
 
@@ -15,9 +23,10 @@
 
 					<p> Download the pdf or contact us via the link to learn more about the inextricable link between design and development in the digital age. </p>
 				</div>
-			<div id="secondbox" class="col-md-4">
+			<div id="secondbox" class="col-md-3">
 				<div class="resources">
 					<h5> Downloads </h5>
+					<%= link_to (image_tag("dl-cover-agency.jpg", :alt => "Download the pdf", size: "100x50", :class => "img-thumbnail")) %>
 				<div>
 				<div class="Contact">
 					<h5> Contact: </h5>
