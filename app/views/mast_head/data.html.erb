@@ -2,33 +2,41 @@
 
 <div class="container-fluid">
 	<div class="contentful">
-			<div class="row">
-				<div id="firstbox" class="col-md-9">
-					<h1> Data Science <h1>
-					<hr class="underline">
-					<h2>The journey from data to actionable intelligence</h2>
+		<div class="row">
+			<div id="firstbox" class="col-md-9">
+				<h1> Data Science <h1>
+				<hr class="underline">
+				<h2>The journey from data to actionable intelligence</h2>
 
-					<p> We're in the process of expanding our data services to include statistics and machine learning. Please <%= mail_to "datascience@16circles.com", "contact us", subject: "Data Science Inquiry"%> to schedule a phone consultation for your data requirements.</p>
+				<p> We're in the process of expanding our data services to include statistics and machine learning. Please <%= mail_to "datascience@16circles.com", "contact us", subject: "Data Science Inquiry"%> to schedule a phone consultation for your data requirements.</p>
 
-				</div>
-				<div id="secondbox" class="col-md-3">
-								<div class="resources">
-									<h5> Downloads </h5>
-									<%= link_to (image_tag("dl-cover-agency.jpg", :alt => "Download the pdf", size: "100x50", :class => "img-thumbnail")) %>
-								<div>
-								<div class="Contact">
-									<h5> Contact: </h5>
-				 					<%= mail_to "agency@16circles.com" %> 
-								</div>
-								<div class="socializer" id="propagate">
-									<h5> Share </h5>
-									<div class="social">
-										<%= link_to (image_tag("facebook.png", :alt => "FB", size: "35x35", :class => "socialfilt")), "https://www.facebook.com/dialog/feed?app_id=245200332347570&link=http%3A%2F%2Fwww.16circles.com%2FSafeStreets&name=SafeStreets&redirect_uri=http%3A%2F%2Fs7.addthis.com%2Fstatic%2Fpostshare%2Fc00.html", :target => "_blank" %>
-			
-										<%= link_to (image_tag("twitter.png", :alt => "Tweet", size: "35x35", :class => "socialfilt")), "https://twitter.com/share", :target => "_blank" %>
-									</div>
-								</div>
-							</div>
-			</div>
-		</div>
-	</div>
+			</div> <!-- firstbox -->
+
+			<div id="secondbox" class="col-md-3">
+				<div class="resources">
+					<div class="dl">
+						<h5> Downloads </h5>
+						<%= link_to (image_tag("dl-cover-agency.jpg", :alt => "Download the pdf", size: "100x50", :class => "img-thumbnail")) %>
+					</div> <!-- dl -->
+
+					<div class="Contact">
+						<h5> Contact: </h5>
+				 		<%= mail_to "datascience@16circles.com" %> 
+					</div> <!-- contact -->
+
+					<div class="socializer" id="propagate">
+						<h5> Share </h5>
+						<div class="social">
+							<%= link_to (image_tag("facebook.png", :alt => "Share on Facebook", size: "35x35", :class => "socialfilt")), "https://www.facebook.com/dialog/feed?app_id=245200332347570&link=http%3A%2F%2Fwww.16circles.com%2FSafeStreets&name=SafeStreets&redirect_uri=http%3A%2F%2Fs7.addthis.com%2Fstatic%2Fpostshare%2Fc00.html", :target => "_blank" %>
+					
+							<%= link_to (image_tag("twitter.png", :alt => "Share on Twitter", size: "35x35", :class => "socialfilt")), "https://twitter.com/share", :target => "_blank" %>
+
+							<%= link_to (image_tag("linkedin.png", :alt => "Share on Linkedin", size: "35x35", :class => "socialfilt")), "https://twitter.com/share", :target => "_blank" %>
+						</div> <!-- social -->
+					</div> <!-- socializer -->
+				</div> <!-- resources -->
+			</div> <!-- secondbox -->
+		</div> <!-- row -->
+	</div> <!-- contentful -->
+</div> <!-- container-fluid -->
+

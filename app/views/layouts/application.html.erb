@@ -10,19 +10,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
     <%= render 'layouts/shim' %>
-    
-    
-     </head>
-  <body>
+    </head>
 
+<body>
 
-
-   <%= render '/layouts/header' %>
+<%= render '/layouts/header' %>
  
+<%= yield %>
 
- <%= yield %>
+<%= render '/layouts/footer' %>
 
-       <%= render '/layouts/footer' %>
-
-  </body>
+</body>
 </html>

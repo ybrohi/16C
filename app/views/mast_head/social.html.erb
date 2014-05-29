@@ -3,30 +3,33 @@
 
   <div class="container-fluid">
 	<div class="contentful">
-			<div class="row">
-				<div id="firstbox" class="col-md-9">
-					<h1> Soc!al <h1>
-					<hr class="underline">
-					<h2>24/7/365 services to craft, guide and influence the conversation</h2>
-					</div>
-					<div id="secondbox" class="col-md-3">
-								<div class="resources">
-									<h5> Downloads </h5>
-									<%= link_to (image_tag("dl-cover-agency.jpg", :alt => "Download the pdf", size: "100x50", :class => "img-thumbnail")) %>
-								<div>
-								<div class="Contact">
-									<h5> Contact: </h5>
-				 					<%= mail_to "agency@16circles.com" %> 
-								</div>
-								<div class="socializer" id="propagate">
-									<h5> Share </h5>
-									<div class="social">
-										<%= link_to (image_tag("facebook.png", :alt => "FB", size: "35x35", :class => "socialfilt")), "https://www.facebook.com/dialog/feed?app_id=245200332347570&link=http%3A%2F%2Fwww.16circles.com%2FSafeStreets&name=SafeStreets&redirect_uri=http%3A%2F%2Fs7.addthis.com%2Fstatic%2Fpostshare%2Fc00.html", :target => "_blank" %>
+		<div class="row">
+			<div id="firstbox" class="col-md-9">
+				<h1> Soc!al <h1>
+				<hr class="underline">
+				<h2>24/7/365 services to craft, guide and influence the conversation</h2>
+			</div>
+			<div id="secondbox" class="col-md-3">
+				<div class="resources">
+					<div class="dl">
+					<h5> Downloads </h5>
+					<%= link_to (image_tag("dl-cover-agency.jpg", :alt => "Download the pdf", size: "100x50", :class => "img-thumbnail")) %>
+				</div>
+				<div class="Contact">
+					<h5> Contact: </h5>
+				 	<%= mail_to "social@16circles.com" %> 
+				</div>
+				<div class="socializer" id="propagate">
+					<h5> Share </h5>
+					<div class="social">
+						<%= link_to (image_tag("facebook.png", :alt => "Share on Facebook", size: "35x35", :class => "socialfilt")), "https://www.facebook.com/dialog/feed?app_id=245200332347570&link=http%3A%2F%2Fwww.16circles.com%2FSafeStreets&name=SafeStreets&redirect_uri=http%3A%2F%2Fs7.addthis.com%2Fstatic%2Fpostshare%2Fc00.html", :target => "_blank" %>
 			
-										<%= link_to (image_tag("twitter.png", :alt => "Tweet", size: "35x35", :class => "socialfilt")), "https://twitter.com/share", :target => "_blank" %>
-									</div>
-								</div>
-							</div>
+						<%= link_to (image_tag("twitter.png", :alt => "Share on Twitter", size: "35x35", :class => "socialfilt")), "https://twitter.com/share", :target => "_blank" %>
+
+						<%= link_to (image_tag("linkedin.png", :alt => "Share on Linkedin", size: "35x35", :class => "socialfilt")), "https://twitter.com/share", :target => "_blank" %>
+					</div>
 				</div>
 			</div>
 		</div>
+	</div>
+</div>
