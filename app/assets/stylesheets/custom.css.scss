@@ -10,7 +10,7 @@ html {
 
 body {
 
-  padding-top: 00px;
+  padding-top: 0px;
 }
 
 section {
@@ -295,6 +295,9 @@ background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQ0MCIgaGVpZ2h
 #contentful, #firstbox {
   padding-top: 20px;
   position: relative;
+  overflow-y: auto;
+
+
 }
 
 #contentful, #secondbox {
@@ -331,14 +334,14 @@ background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQ0MCIgaGVpZ2h
 
 /* Footer */
 
-.footer .pull-right li {
-  position: inline;
+.footer #links li {
   list-style: none;
   padding: 5px;
   font-family: 'Lato', sans-serif;
+  display: inline;
 }
 
-.footer .copyright {
+.footer #copyright {
 
   font-family: 'Lato', sans-serif;
   font-size: 12px;
@@ -348,7 +351,6 @@ background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQ0MCIgaGVpZ2h
 margin-top: 0px;
 margin-left: 15px;
 margin-right: 15px;
-
 
 }
 
@@ -398,20 +400,4 @@ margin-right: 15px;
     }
 */
 
-/* 
-
-footer a {
-  color: #555;
-}
-
-footer a:hover {
-  color: #222;
-}
-
-footer small {
-  float: left;
-}
-
-*/
-      
 
