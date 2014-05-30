@@ -22,6 +22,10 @@ resources :users
 
   match '/data', to: 'mast_head#data', via: 'get'
 
+  match '/developing', to: 'mast_head#developing', via: 'get'
+
+  match '/developed', to: 'mast_head#developed', via: 'get'
+
   match '/social', to: 'mast_head#social', via: 'get'
 
   match '/urban', to: 'mast_head#urban', via: 'get'
