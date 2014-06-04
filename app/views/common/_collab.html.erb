@@ -1,0 +1,12 @@
+<% if @collaboration.errors.any? %>
+	<div id="collab-errors">
+		<div class="alert alert-info">
+			Please fix the following <%= pluralize(@collaboration.errors.count, "error") %>.
+			</div>
+			<ul class="list-group">
+			<% @collaboration.errors.full_messages.each do |msg| %>
+			<li class="list-group-item"> * <%= msg %></li>
+			<% end %>
+			</ul>
+			</div>
+			<% end %>

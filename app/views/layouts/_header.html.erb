@@ -17,31 +17,31 @@
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Digital<b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                    <li><%= link_to "@gency", '/agency' %></li>
+                    <li><%= link_to "@gency", agency_path %></li>
                     <li class="divider"></li>
-                    <li><%= link_to "Design", '/design' %></li>
+                    <li><%= link_to "Design", design_path %></li>
                     <li class="divider"></li>
-                    <li><%= link_to "Development", '/development' %></li>
+                    <li><%= link_to "Development", development_path %></li>
                   </ul>
                 </li>
 
-                <li><%= link_to "Data", '/data' %></li>
+                <li><%= link_to "Data", data_path %></li>
 
-                 <li><%= link_to "Strategy", '/strategy' %></li>
+                 <li><%= link_to "Strategy", strategy_path %></li>
 
 
-              <li><%= link_to "Soc!al",    '/social' %></li>
+              <li><%= link_to "Soc!al", social_path %></li>
                <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">#Urban<b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                    <li><%= link_to "#Urban", '/urban' %></li>
+                    <li><%= link_to "#Urban", urban_path %></li>
                     <li class="divider"></li>
-                    <li><%= link_to "Developing", '/developing' %></li>
+                    <li><%= link_to "Developing", developing_path %></li>
                     <li class="divider"></li>
-                    <li><%= link_to "Developed", '/developed' %></li>
+                    <li><%= link_to "Developed", developed_path %></li>
                   </ul>
                 </li>
-              <li><%= link_to "Collaborate", '/collaborate' %></li>
+              <li><%= link_to "Collaborate", new_collaboration_path %></li>
              <!--  <% if user_signed_in? %>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><%= current_user.email %><b class="caret"></b></a>

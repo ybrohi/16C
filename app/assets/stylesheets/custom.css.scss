@@ -51,8 +51,6 @@ textarea {
   position: top;
 }
 
-
-
 #carousel16c .carousel-inner img {
 height: auto;
   }
@@ -82,6 +80,7 @@ height: auto;
 }
 
 
+
 /* Modal-body */
 
 .modal-title {
@@ -98,7 +97,7 @@ height: auto;
 }
 
 
-/*  Signup form */
+/* Forms */
 
 .formario {
   position: relative;
@@ -113,18 +112,27 @@ height: auto;
 }
 
 .formarion{
-  width: auto;
   font-family: lato,sans-serif;
   font-weight: 100;
   font-size: 24;
   color: #737373;
   margin-bottom: 0px;
+  margin-top: 3px;
 }
 
 .boxy {
   background-color: #ffffff;
   border: 1px solid #cccccc;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
+  font-family: 'Lato', sans-serif;
+}
+
+#zig input {
+  width: 400px;
+}
+
+#collab-errors {
+  font-family: 'Lato', sans-serif;
 }
 
 

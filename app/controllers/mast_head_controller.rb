@@ -23,9 +23,6 @@ class MastHeadController < ApplicationController
   def urban
   end
 
-  def collaborate
-  end
-
   def faqs
   end
 

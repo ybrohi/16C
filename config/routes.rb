@@ -1,10 +1,11 @@
 Mana::Application.routes.draw do
+  # get "collaborations/new"
   devise_for :users
   #get "users/new"
 
-resources :users
+resources :users, :collaborations
 
-  root 'mast_head#home'
+root 'mast_head#home'
 
   match '/help', to: 'mast_head#help', via: 'get'
   match '/about', to: 'mast_head#about', via: 'get'
@@ -30,8 +31,6 @@ resources :users
 
   match '/urban', to: 'mast_head#urban', via: 'get'
 
-  match '/collaborate', to: 'mast_head#collaborate', via: 'get'
-
   match '/SafeStreets', to: 'mast_head#safestreets', via: 'get'
 
   match '/safestreets', to: 'mast_head#safestreets', via: 'get'
@@ -39,7 +38,6 @@ resources :users
   match '/Safestreets', to: 'mast_head#safestreets', via: 'get'
 
   match '/safeStreets', to: 'mast_head#safestreets', via: 'get'
-
 
   
 

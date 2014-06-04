@@ -11,6 +11,9 @@ group :development do
 	gem 'sqlite3', '1.3.7'
 	gem 'rspec-rails', '2.13.1'
 	gem 'annotate'
+	gem 'country_select'
+	gem 'humanizer'
+	
 end
 
 group :test do
