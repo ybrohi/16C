@@ -1,3 +1,19 @@
+# == Schema Information
+#
+# Table name: collaborations
+#
+#  id         :integer          not null, primary key
+#  name       :string(255)
+#  email      :string(255)
+#  company    :string(255)
+#  phone      :integer
+#  city       :string(255)
+#  country    :string(255)
+#  message    :text
+#  created_at :datetime
+#  updated_at :datetime
+#
+
 class Collaboration < ActiveRecord::Base
 
 validates :name, presence: true, length: { maximum: 24 }
