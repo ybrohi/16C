@@ -22,7 +22,7 @@ end
 private
 
 	def cp
-		params.require(:collaboration).permit(:name, :email, :company, :phone, :city, :country, :message)
+		params.require(:collaboration).permit(:name, :email, :company, :phone, :city, :country, :message, :humanizer_answer, :humanizer_question_id )
 	end
 
 end

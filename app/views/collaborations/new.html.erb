@@ -40,6 +40,12 @@
 							<div><%= f.label :message, class: "formarion" %><br>
 							<%= f.text_area :message, class: "form-control", rows: 4 %></div><br>
 
+							<div><%= f.label :humanizer_answer, @collaboration.humanizer_question, class: "formarion" %><br>
+								<%= f.text_field :humanizer_answer, class: "boxy" %>
+								<%= f.hidden_field :humanizer_question_id, class: "boxy" %></div>
+
+
+
 							 <div><%= f.submit "Get in touch", class: "btn btn-default btn-info" %></div>
 
 							<% end %>

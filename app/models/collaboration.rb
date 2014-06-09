@@ -16,6 +16,9 @@
 
 class Collaboration < ActiveRecord::Base
 
+	include Humanizer
+	require_human_on :create
+
 validates :name, presence: true, length: { maximum: 24 }
 EMAIL_CHECKER = /\A[\w+\-.]+@[a-z\d\-]+(?:\.[a-z\d\-]+)*\.[a-z]+\z/i
 validates :email, presence: true, format: { with: EMAIL_CHECKER }
