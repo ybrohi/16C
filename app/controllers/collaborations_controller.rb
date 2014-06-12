@@ -4,9 +4,14 @@ def index
 	@collaboration = Collaboration.all
 end
 
-  def new
+ def new
 	@collaboration = Collaboration.new
-	end
+end
+
+def show
+
+end
+
 
 def create
 	@collaboration = Collaboration.new(cp)

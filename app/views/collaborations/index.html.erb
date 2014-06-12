@@ -3,5 +3,14 @@
   <div class="container-fluid">
 	<div class="contentful">
 			<div class="row">
-				
+			<ul class="col-list">
+  <% @Collaboration.each do |col| %>
+    <li>
+      <%= link_to Collaboration.name, col %>
+    </li>
+  <% end %>
+</ul>
+			</div>
+		</div>
+	</div>
 		
