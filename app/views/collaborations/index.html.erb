@@ -2,17 +2,14 @@
 
   <div class="container-fluid">
 	<div class="contentful">
-			<div class="row">
-	
-<ul class="listlist">
-
-<% @collaborations.each do |fg| %>
-<li>
-<%= link_to fg.name, fg %>
-</li>
-
-<% end %>
-</ul>
+			<div class="row">		
+				<ul class="listlist">
+				<% @collaborations.each do |fg| %>
+				<li>
+				<%= link_to fg.name, fg %>
+				</li>
+				<% end %>
+				</ul>
 			</div>
 		</div>
 	</div>

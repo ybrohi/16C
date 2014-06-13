@@ -1,4 +1,8 @@
 class CollaborationsController < ApplicationController
+
+before_action :authenticate_user!, only: :index
+before_action :admin_user, only: [:index, :edit, :update, :destroy]
+
   
 def index
 	@collaborations = Collaboration.all
@@ -28,6 +32,10 @@ private
 
 	def cp
 		params.require(:collaboration).permit(:name, :email, :company, :phone, :city, :country, :message, :humanizer_answer, :humanizer_question_id )
+	end
+
+	def admin_user
+		redirect_to(root_url) unless current_user.admin? 
 	end
 
 end

@@ -19,6 +19,7 @@
 #  lastname               :string(255)
 #  city                   :string(255)
 #  yearofbirth            :integer
+#  admin                  :boolean          default(FALSE)
 #
 
 require 'spec_helper'
