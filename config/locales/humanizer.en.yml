@@ -14,9 +14,9 @@ en:
       - question: "Insert the next number in this sequence: 10, 11, 12, 13, 14, .."
         answers: ["15", "fifteen"]
       - question: "What is five times five?"
-        answers: ["25", "twenty-five"]
+        answers: ["25", "twenty-five", "twenty five", "Twenty Five"]
       - question: "Ten divided by two is what?"
-        answers: ["5", "five"]
+        answers: ["5", "five", "Five"]
       - question: What comes after Monday?
         answer: ["Tuesday", "tuesday"]
       - question: What is the last month of the year?
@@ -38,6 +38,6 @@ en:
       - question: What is fifteen divided by three?
         answer: ["five", "5"]
       - question: What is 14 minus 4?
-        answers: ["10", "ten"]
+        answers: ["10", "ten", "Ten"]
       - question: "What comes next? Monday, Tuesday, Wednesday.."
         answer: ["Thursday", "thursday"]
