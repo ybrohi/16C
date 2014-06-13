@@ -1,11 +1,18 @@
-<% provide(:title, 'Collaboration') %>
+<% provide(:title, 'Collaborations') %>
 
   <div class="container-fluid">
 	<div class="contentful">
 			<div class="row">
 	
-  <%= @collaborations %>
+<ul class="listlist">
 
+<% @collaborations.each do |fg| %>
+<li>
+<%= link_to fg.name, fg %>
+</li>
+
+<% end %>
+</ul>
 			</div>
 		</div>
 	</div>
