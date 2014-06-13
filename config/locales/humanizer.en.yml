@@ -4,9 +4,9 @@ en:
       error: validation failed. Please answer correctly to prove you're not a robot. 
     questions:
       - question: Two plus two?
-        answers: ["4", "four"]
+        answers: ["4", "four", "Four"]
       - question: Jack and Jill went up the...
-        answer: hill
+        answer: ["hill", "Hill"]
       - question: What is the number before twelve?
         answers: ["11", "eleven"]
       - question: Five times two is what?
@@ -20,21 +20,21 @@ en:
       - question: What comes after Monday?
         answer: ["Tuesday", "tuesday"]
       - question: What is the last month of the year?
-        answer: "december"
+        answer: ["december", "December"]
       - question: How many minutes are in an hour?
-        answers: ["60", "sixty"]
+        answers: ["60", "sixty", "Sixty"]
       - question: What is the opposite of down?
-        answer: "up"
+        answer: ["Up", "up"]
       - question: What is the opposite of north?
-        answer: "south"
+        answer: ["south", "South"]
       - question: What is the opposite of bad?
-        answer: "good"
+        answer: ["good", "Good"]
       - question: What is 4 times four?
         answers: ["16", "sixteen"]
       - question: What number comes after 20?
         answers: ["21", "twenty-one", "twenty one"]
       - question: What month comes before July?
-        answer: "june"
+        answer: ["june", "June"]
       - question: What is fifteen divided by three?
         answer: ["five", "5"]
       - question: What is 14 minus 4?
