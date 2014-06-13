@@ -1,19 +1,392 @@
-<% provide(:title, 'Error[500]') %>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>16 Circles | Digital, Data & Strategy Consulting | Error(500)</title>
+
+  <style>
+@import "bootstrap";
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,100italic|Open+Sans:300,400,600,300italic);
+
+
+/* universal */
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+
+  padding-top: 0px;
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+  }
+
+  /* header */
+
+.logo2 {
+  float: left;
+  margin-left: 10px;
+  font-family: 'Open sans', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #B2B2B2;
+  letter-spacing: 1px;
+  padding-top: 15px; 
+  line-height: 1;
+}
+
+.logo2:hover {
+  color: #e6e6e6;
+  text-decoration: none;
+}
+
+/* Body */
+
+#carousel16c {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.carousel-inner {
+  position: top;
+}
+
+#carousel16c .carousel-inner img {
+height: auto;
+  }
+
+.carousel-caption {
+  text-align: left;
+}
+
+.carousel-caption h1 {
+  font-family: 'Open sans', sans-serif;
+  font-size: 52px;
+  text-align: left;
+  font-weight: 100;
+  color: #fff;
+}
+
+.carousel-caption h4 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  font-size: 34px;
+  color: #ffffff;
+  text-align: left;
+}
+
+.carousel-indicators {
+  text-align: left
+}
+
+
+
+/* Modal-body */
+
+.modal-title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #606060;
+}
+
+.modal-body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #009e96;
+}
+
+
+/* Forms */
+
+.formario {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 16px;
+  font-family: lato,sans-serif;
+  font-weight: 100;
+  color: #737373;
+}
+
+.formarion{
+  font-family: lato,sans-serif;
+  font-weight: 100;
+  font-size: 24;
+  color: #737373;
+  margin-bottom: 0px;
+  margin-top: 3px;
+}
+
+.boxy {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  margin-bottom: 8px;
+  font-family: 'Lato', sans-serif;
+}
+
+#zig input {
+  width: 400px;
+}
+
+#collab-errors {
+  font-family: 'Lato', sans-serif;
+}
+
+
+/* Layout */
+
+.container {
+height: auto;
+}
+
+.row {
+  z-index: 100000;
+  background-color: #fff;
+}
+
+.colorgraph {
+  height: 5px;
+  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
+
+.grade {
+  height: 2px;
+  background-image: linear-gradient(to right, #03d7e6, #f4d900);
+  padding-left: 15px;
+}
+
+/* Iphone Screen Size to 767 pixels */  
+
+@media (max-width: 767px) {
+
+.navbar-brand {
+ display: none;
+  }
+
+.carousel-inner {
+margin-top: 50px;
+}  
+
+.logo2 {
+  display: inherit;
+  padding-left: 15px;
+}
+
+.socialfilt {
+height: 25px;
+width: 25px;
+}
+
+.navbar {
+  z-index: 10000;
+  background-color: #ffffff;
+  border: none;
+}
+
+.carousel-caption h1 {
+  font-size: 24px;
+}
+
+.carousel-caption h4 {
+  font-size: 14px;
+}
+
+.btn-responsive {
+  font-size: 10px;
+}
+
+}
+
+/* Iphone portrait mode */
+
+@media (max-width : 480px) {
+
+.contentful .col-md-9 p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #868686;
+
+}
+
+.contentful .col-md-3 h5 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+
+}
+
+}
+
+/* Ipad or Larger Screen Size */
+
+@media (min-width: 768px) {
+
+.navbar-brand {   
+  overflow: visible;
+  padding-top: 0;
+  padding-bottom: 0;
+  z-index: 1;
+}
+
+.logo2 {
+  display: none;
+}
+
+.navbar {
+  z-index: 1;
+  background-color: transparent;
+  border: none;
+}
+
+.navbar-inner .nav > li > a {
+  color: #009e96;
+  font-size: 14px;
+} 
+
+
+}
+
+
+/* Page Structure */
+
+
+/* css for subnavigation */
+
+.subsub {
+  margin-top: 35px;
+  padding-top: 3px;
+  margin-bottom: 0px;
+
+}
+
+/* ------- */
+
+.contentful {
+  padding-top: 100px;
+  padding-left: 15px;
+}
+
+.contentful h1 {
+  width: auto;
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 300;
+  letter-spacing: -2px;
+  color: #bdbdbd;
+  font-size: 50px;
+  margin-bottom: -20px;
+
+}
+
+.contentful h2 {
+  width: auto;
+  font-family: lato,sans-serif;
+  font-weight: 100;
+  font-size: 36;
+  color: #737373;
+}
+
+.contentful p {
+  width: auto;
+  padding-top: 10px;
+  font-size: 18px;
+  font-family: lato,sans-serif;
+  font-weight: 100;
+  color: #000000;
+}
+ 
+
+#contentful, #firstbox {
+  padding-top: 20px;
+  position: relative;
+  overflow-y: auto;
+
+
+}
+
+#contentful, #secondbox {
+  max-height: none;
+  margin-top: 95px;
+  width: auto;
+  font-family: lato,sans-serif;
+  font-weight: 100;
+  font-size: 18px;
+  color: #ffa500;
+  border-left: 1px solid #eeeeee;
+}
+
+.summon {
+  font-weight: 300;
+  cursor: pointer;
+
+}
+
+
+.socialfilt {
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+
+  margin-right: 10px;
+}
+
+.socialfilt:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%);
+}
+
+
+/* Footer */
+
+.footer #links li {
+  list-style: none;
+  padding: 5px;
+  font-family: 'Lato', sans-serif;
+  display: inline;
+}
+
+.footer #copyright {
+
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+}
+
+.footer {
+margin-top: 0px;
+margin-left: 15px;
+margin-right: 15px;
+
+}
+
+  </style>
+</head>
 
 <body>
-  <div class="container-fluid">
+  <!-- This file lives in public/404.html -->
+   <div class="container-fluid">
   <div class="contentful">
       <div class="row">
         <div id="firstbox" class="col-md-9">
         <h1> Error </h1>
           <hr class="underline">
-          <h2>Hmmm, something is amiss.</h2>
+            <h2>Hmmm, something is amiss.[500]</h2>
 
-          <p> Clearly, something has gone wrong. We apologize for a less-than-optimal experience. This error has been logged and will be reviewed presently.<br><br>
+          <p> Clearly, something has gone wrong. <br><br> We apologize for a less-than-optimal experience. This error has been logged and will be reviewed presently.<br><br>
 
-          Please <a href="#"> click here</a> to return to 16 Circles or press the 'back' button in your browser. </p>
+
+
 
         </div>
       </div>
     </div>
   </div>
+
+</body>
+</html>

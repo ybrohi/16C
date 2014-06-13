@@ -1,7 +1,7 @@
 class CollaborationsController < ApplicationController
   
 def index
-	@collaboration = Collaboration.all
+	@collaborations = Collaboration.all
 end
 
  def new
