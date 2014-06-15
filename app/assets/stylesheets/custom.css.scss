@@ -86,7 +86,7 @@ height: auto;
 .modal-title {
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 100;
   color: #606060;
 }
 
@@ -343,12 +343,7 @@ background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQ0MCIgaGVpZ2h
 
 /* Footer */
 
-.footer #links li {
-  list-style: none;
-  padding: 5px;
-  font-family: 'Lato', sans-serif;
-  display: inline;
-}
+
 
 .footer #copyright {
 
@@ -363,9 +358,10 @@ background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQ0MCIgaGVpZ2h
 }
 
 .footer {
-margin-top: 0px;
-margin-left: 25px;
-margin-right: 15px;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-left: 25px;
+  margin-right: 15px;
 }
 
 
