@@ -31,7 +31,7 @@
 								<div class="resources">
 									<div class="dl">
 									<h5> Downloads </h5>
-									<%= link_to (image_tag("dl-cover-urban.jpg", :alt => "Download the pdf", size: "100x50", :class => "img-thumbnail")) %>
+									<%= link_to (image_tag("dl-cover-urban.jpg", :alt => "Download the pdf", size: "100x50", :class => "img-thumbnail", data: {toggle: "modal", target: "#pdfurb"})), "#" %>
 								</div>
 								<div class="Contact">
 									<h5> Contact: </h5>
@@ -47,6 +47,26 @@
 						<%= link_to (image_tag("linkedin.png", :alt => "Share on Linkedin", size: "35x35", :class => "socialfilt")), "https://twitter.com/share", :target => "_blank" %>
 					</div> <!--Social-->
 				</div><!--Socializer-->
+
+				<div class="modal fade" id="pdfurb" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+									  <div class="modal-dialog modal-sm">
+									    <div class="modal-content">
+									      <div class="modal-header">
+									        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+									        <h4 class="modal-title" id="myModalLabel">Technology & the Cities of Tomorrow</h4>
+									      </div>
+									      <div class="modal-body">
+									        <%= image_tag("dl-cover-urban.jpg", :alt => "Download the pdf", size: "400x200", :class => "img-thumbnail") %>
+									      </div>
+									      <div class="modal-footer">
+									        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+									        <button type="button" class="btn btn-primary" disabled="disabled">Download Report(PDF)</button>
+									      </div>
+									    </div>
+									  </div>
+									</div>
+
+
 			</div><!--Resources-->
 		</div><!--SecondBox-->
 	</div><!--Row-->
