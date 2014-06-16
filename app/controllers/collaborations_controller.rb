@@ -20,6 +20,7 @@ end
 def create
 	@collaboration = Collaboration.new(cp)
 	if @collaboration.save
+		flash[:success] = "Input received. Thank you. Expect to hear from us within 72 hours."
 		redirect_to urban_path
 else
 	render 'new'

@@ -21,7 +21,7 @@ en:
         answer: ["Tuesday", "tuesday"]
       - question: What is the last month of the year?
         answer: ["december", "December"]
-      - question: How many minutes are in an hour?
+      - question: How many minutes are there in an hour?
         answers: ["60", "sixty", "Sixty"]
       - question: What is the opposite of down?
         answer: ["Up", "up"]
