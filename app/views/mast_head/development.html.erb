@@ -9,19 +9,23 @@
 					<h2>Human-centered design & agile development</h2>
 						<div class="subsub">
 							<ul class=" nav nav-tabs nav-justified">
-							<li> <%= link_to "@gency", '/agency' %></li>
-							<li><%= link_to "Design", '/design' %></li>
-							<li class="active"><%= link_to "Development", '/development' %></li>
+							<li> <%= link_to "@gency", agency_path%></li>
+							<li><%= link_to "Design", design_path %></li>
+							<li class="active"><%= link_to "Development", development_path %></li>
 						</ul>
 						</div><!-- subsub --> 
 						<br><br>
 
-						<p> Agile. Open source, parallel development, efficiency, unlocks the innovation layer<br>
-						<br>
-						<br>
-					</p>
+						<p> Ubiquity of technology, commodification of connectivity, standardization of protocols and form factors, rapid acceptance of digital businesses and the emergence of the "cloud-first, mobile-first" approach have had a profound effect on our behavior patterns and subsequently on societal constructs. </p>
 
-						<p> Download the pdf or contact us via the link to learn more about the inextricable link between Designn and development in the digital age. </p>
+						<p> Since all marketing is digital today, interactivity should be a core competency of every communication marketer. Developing collateral for a "mobile-first" world requires expertise beyond plain technical competence, as a fundamentally understanding consumer behavior and responsiveness to shifting patterns is mandatory for the successful implementation of plans and execution of corporate strategies </p>
+
+						<p>In addition to the continual shifts, <%= link_to "the lean startup", "http://en.wikipedia.org/wiki/Lean_startup", :target => "_blank" %> has changed everything, seemingly irreversibly. No other methodology has proven to be less wasteful. By using agile sprints, split testing and metrics monitoring as part of our development plan, we deliver value for customers, businesses and external stakeholders, on time, under budget. Behavior-driven development also ensures sound documentation for ownership transfer, and we tend to lean towards open source tech and cloud deployments, since they are less frequently a single point of failure, and place more emphasis on competitive  innovation. </p>
+
+						<p> <%=mail_to "agency@16circles.com", "Let's talk", subject: "Development Inquiry" %>  about your interactivity, digital development and data visualization requirements, and evaluate if lean methodology and rapid development can be an asset to your team. </p>
+					
+
+
 					</div> <!-- firstbox --> 
 
 					<div id="secondbox" class="col-md-3">
