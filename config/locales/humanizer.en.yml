@@ -3,19 +3,19 @@ en:
     validation:
       error: validation failed. Please answer correctly to prove you're not a robot. 
     questions:
-      - question: Two plus two?
+      - question: Two plus two equals?
         answers: ["4", "four", "Four"]
       - question: Jack and Jill went up the...
         answer: ["hill", "Hill"]
       - question: What is the number before twelve?
         answers: ["11", "eleven"]
-      - question: Five times two is what?
+      - question: Five times two equals?
         answers: ["10", "ten"]
-      - question: "Insert the next number in this sequence: 10, 11, 12, 13, 14, .."
+      - question: "What is the next number in the following sequence: 10, 11, 12, 13, 14, .."
         answers: ["15", "fifteen"]
-      - question: "What is five times five?"
+      - question: "Five times five equals?"
         answers: ["25", "twenty-five", "twenty five", "Twenty Five"]
-      - question: "Ten divided by two is what?"
+      - question: "Ten divided by two equals?"
         answers: ["5", "five", "Five"]
       - question: What comes after Monday?
         answer: ["Tuesday", "tuesday"]
@@ -29,15 +29,15 @@ en:
         answer: ["south", "South"]
       - question: What is the opposite of bad?
         answer: ["good", "Good"]
-      - question: What is 4 times four?
+      - question: Four times four? equals
         answers: ["16", "sixteen"]
       - question: What number comes after 20?
         answers: ["21", "twenty-one", "twenty one"]
       - question: What month comes before July?
         answer: ["june", "June"]
-      - question: What is fifteen divided by three?
+      - question: Fifteen divided by three equals?
         answer: ["five", "5"]
-      - question: What is 14 minus 4?
+      - question: WFourteen minus four equals?
         answers: ["10", "ten", "Ten"]
-      - question: "What comes next? Monday, Tuesday, Wednesday.."
+      - question: "What comes next in the following sequence? Monday, Tuesday, Wednesday.."
         answer: ["Thursday", "thursday"]
