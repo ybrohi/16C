@@ -1,7 +1,7 @@
 class CollaborationsController < ApplicationController
 
-# before_action :authenticate_user!, only: :index
-# before_action :admin_user, only: [:index, :edit, :update, :destroy]
+before_action :authenticate_user!, only: :index
+before_action :admin_user, only: [:index, :show, :edit, :update, :destroy]
 
   
 def index
