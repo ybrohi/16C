@@ -1,5 +1,21 @@
 <% provide(:title, 'Show Collaborations') %>
 
-  <div class="container-fluid">
-
-  </div>
+<div class="container-fluid">
+	<div class="contentful">
+			<div class="row">
+				<div id="firstbox" class="col-md-9">
+					<ul>
+					<li><%= @collaboration.name %></li>
+					<li><%= @collaboration.id     %></li>
+					<li><%= @collaboration.email      %></li>
+					<li><%= @collaboration.company      %></li>
+					<li><%= @collaboration.phone      %></li>                  
+					<li><%= @collaboration.city      %></li>
+					<li><%= @collaboration.country      %></li>
+					<li><%= @collaboration.message      %></li>
+					<li><%= @collaboration.created_at      %></li>
+					<li><%= @collaboration.updated_at      %></li>
+				</div>
+				</div>
+				</div>
+				</div>

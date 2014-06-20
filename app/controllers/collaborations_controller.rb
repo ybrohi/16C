@@ -1,7 +1,7 @@
 class CollaborationsController < ApplicationController
 
-before_action :authenticate_user!, only: :index
-before_action :admin_user, only: [:index, :edit, :update, :destroy]
+# before_action :authenticate_user!, only: :index
+# before_action :admin_user, only: [:index, :edit, :update, :destroy]
 
   
 def index
@@ -13,7 +13,7 @@ end
 end
 
 def show
-
+	@collaboration = Collaboration.find(params[:id])
 end
 
 
