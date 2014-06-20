@@ -29,7 +29,7 @@ en:
         answer: ["south", "South"]
       - question: What is the opposite of bad?
         answer: ["good", "Good"]
-      - question: Four times four? equals
+      - question: Four times four equals?
         answers: ["16", "sixteen"]
       - question: What number comes after 20?
         answers: ["21", "twenty-one", "twenty one"]
@@ -37,7 +37,7 @@ en:
         answer: ["june", "June"]
       - question: Fifteen divided by three equals?
         answer: ["five", "5"]
-      - question: WFourteen minus four equals?
+      - question: Fourteen minus four equals?
         answers: ["10", "ten", "Ten"]
       - question: "What comes next in the following sequence? Monday, Tuesday, Wednesday.."
         answer: ["Thursday", "thursday"]
