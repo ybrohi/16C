@@ -39,9 +39,8 @@ root 'mast_head#home'
 
   match '/safeStreets', to: 'mast_head#safestreets', via: 'get'
 
-  resources :sitemaps, :only => :show
- get "sitemap" => "sitemaps#show"
-
+resources :sitemaps, :only => :show
+get "sitemap" => "sitemaps#show"
   
 
 
