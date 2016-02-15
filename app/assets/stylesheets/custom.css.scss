@@ -1,5 +1,6 @@
 @import "bootstrap";
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,100italic|Open+Sans:300,400,600,300italic);
+@import url(https://fonts.googleapis.com/css?family=Oranienbaum|Ovo|Anaheim);
 
 
 /* universal */
@@ -340,29 +341,29 @@ background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQ0MCIgaGVpZ2h
 
 .contentful h1 {
   width: auto;
-  font-family: 'Open Sans',sans-serif;
-  font-weight: 300;
+  font-family: 'Open Sans';
+  font-weight: 400;
   letter-spacing: -2px;
-  color: #bdbdbd;
-  font-size: 50px;
-  margin-bottom: -20px;
+  color: #474748;
+  font-size: 48px;
+  margin-bottom: -15px;
 
 }
 
 .contentful h2 {
   width: auto;
-  font-family: lato,sans-serif;
-  font-weight: 100;
-  font-size: 36;
-  color: #737373;
+  font-family: 'Ovo';
+  font-weight: 400;
+  font-size: 28;
+  color: #989;
+  margin-top: -10px;
 }
 
 .contentful p {
   width: auto;
-  padding-top: 10px;
+  padding-top: 20px;
   font-size: 18px;
-  font-family: lato,sans-serif;
-  font-weight: 100;
+  font-family: 'Ovo';
   color: #000000;
 }
  
