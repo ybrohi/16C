@@ -38,6 +38,9 @@ class MastHeadController < ApplicationController
   def data
   end
 
+  def technology
+  end
+
   def developing
   end
 

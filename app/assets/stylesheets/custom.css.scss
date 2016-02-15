@@ -1,5 +1,5 @@
 @import "bootstrap";
-@import url(http://fonts.googleapis.com/css?family=Lato:100,300,100italic|Open+Sans:300,400,600,300italic);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400|Open+Sans:300,400);
 @import url(https://fonts.googleapis.com/css?family=Oranienbaum|Ovo|Anaheim);
 
 
@@ -301,7 +301,13 @@ width: 25px;
 .navbar-inner .nav > li > a {
   color: #009e96;
   font-size: 14px;
+  font-family: 'Lato';
+  font-size: 400;
+  padding-top: 30px;
+  padding-right: 15px;
 } 
+
+
 
 /* footer (right) larger than ipad */
 

@@ -31,6 +31,8 @@ root 'mast_head#home'
 
   match '/urban', to: 'mast_head#urban', via: 'get'
 
+  match '/technology', to: 'mast_head#technology', via: 'get'
+
   match '/SafeStreets', to: 'mast_head#safestreets', via: 'get'
 
   match '/safestreets', to: 'mast_head#safestreets', via: 'get'
