@@ -69,7 +69,7 @@ height: auto;
 
 .carousel-caption h4 {
   font-family: 'Lato', sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 34px;
   color: #ffffff;
   text-align: left;
@@ -79,6 +79,27 @@ height: auto;
   text-align: left
 }
 
+.carousel-control.left, .carousel-control.right {
+   background-image:none !important;
+   filter:none !important;
+
+}
+
+/* Carousel Shadow */
+
+.carousel-control.left, .carousel-control.right {
+   background-image:none !important;
+   filter:none !important;
+
+}
+
+.glyphicon-chevron-right {
+
+  color: #fff;
+  box-shadow: none;
+  Shadow: none;
+  background-image:none !important;
+}
 
 
 /* Modal-body */

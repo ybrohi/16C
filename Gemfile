@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby "1.9.3"
+ruby "2.1.4"
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -31,6 +31,7 @@ gem 'jbuilder', '1.0.2'
 gem  'sass', '3.2.13'
 gem 'country_select'
 gem 'humanizer'
+
 
 
 # Use Uglifier as compressor for JavaScript assets
