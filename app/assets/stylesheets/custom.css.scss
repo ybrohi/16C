@@ -1,7 +1,7 @@
 @import "bootstrap";
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400|Open+Sans:300,400);
 @import url(https://fonts.googleapis.com/css?family=Oranienbaum|Ovo|Anaheim);
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
 
 /* universal */
 
@@ -76,7 +76,7 @@ height: auto;
 }
 
 .carousel-caption h4 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 34px;
   color: #ffffff;
@@ -123,6 +123,13 @@ height: auto;
   background-image:none !important;
 }
 
+.carouselbutton {
+
+  margin-bottom: 20px;
+  background-color: #7cdbd5;
+  border: none;
+
+}
 
 /* Modal-body */
 
@@ -134,7 +141,7 @@ height: auto;
 }
 
 .modal-body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   color: #009e96;
 }
@@ -155,7 +162,7 @@ height: auto;
 }
 
 .formarion{
-  font-family: lato,sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 100;
   font-size: 24;
   color: #737373;
@@ -167,7 +174,7 @@ height: auto;
   background-color: #ffffff;
   border: 1px solid #cccccc;
   margin-bottom: 8px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #zig input {
@@ -175,7 +182,7 @@ height: auto;
 }
 
 #collab-errors {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -271,14 +278,14 @@ width: 25px;
 @media (max-width : 480px) {
 
 .contentful .col-md-9 p {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   color: #868686;
 
 }
 
 .contentful .col-md-3 h5 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
 
 }
@@ -287,7 +294,7 @@ width: 25px;
 
 .footer #blinks { 
 
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   margin-right: 10px;
   padding-left: 15px;
@@ -321,8 +328,8 @@ width: 25px;
 
 .navbar-inner .nav > li > a {
   color: #009e96;
-  font-size: 14px;
-  font-family: 'Lato';
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
   font-size: 400;
   padding-top: 30px;
   padding-right: 15px;
@@ -334,7 +341,7 @@ width: 25px;
 
 .footer #blinks { 
 
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   margin-right: 10px;
   float: right;
@@ -369,9 +376,9 @@ background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQ0MCIgaGVpZ2h
 .contentful h1 {
   width: auto;
   font-family: 'Open Sans';
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: -2px;
-  color: #474748;
+  color: #e5e5e5;
   font-size: 48px;
   margin-bottom: -15px;
 
@@ -379,19 +386,19 @@ background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQ0MCIgaGVpZ2h
 
 .contentful h2 {
   width: auto;
-  font-family: 'Ovo';
-  font-weight: 400;
-  font-size: 28;
-  color: #989;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 24;
+  color: #393939;
   margin-top: -10px;
 }
 
 .contentful p {
   width: auto;
   padding-top: 20px;
-  font-size: 18px;
-  font-family: 'Ovo';
-  color: #000000;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  color: #696969;
 }
  
 
@@ -407,9 +414,9 @@ background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQ0MCIgaGVpZ2h
   max-height: none;
   margin-top: 95px;
   width: auto;
-  font-family: lato,sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 100;
-  font-size: 18px;
+  font-size: 15px;
   color: #ffa500;
   border-left: 1px solid #eeeeee;
 }
@@ -441,7 +448,8 @@ background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQ0MCIgaGVpZ2h
 
 .footer #copyright {
 
-  font-family: 'Lato', sans-serif;
+  padding-top: 20px;
+  font-family: 'Open Sans', sans-serif;
   font-size: 12px;
 }
 
@@ -455,50 +463,5 @@ background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQ0MCIgaGVpZ2h
   margin-bottom: 30px;
 }
 
-
-/*
-
-.navbar {
-
-  background-color: transparent;
-  background: transparent;
-
-    }
-
-/*
-
-.navbar-wrapper {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      z-index: 10;
-      margin-top: 20px;
-      margin-bottom: -50px; 
-    }
-
-
-   /* .navbar-wrapper .navbar {
-
-
-    }
-
-    .navbar .navbar-inner {
-      border: 0;
-      -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
-         -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
-              box-shadow: 0 2px 10px rgba(0,0,0,.25);
-    }
-
-
-
-    .navbar .nav > li > a {
-      padding: 15px 20px;
-    }
-
-    .navbar .btn-navbar {
-      margin-top: 10px;
-    }
-*/
 
 
