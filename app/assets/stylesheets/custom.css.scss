@@ -370,7 +370,7 @@ background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQ0MCIgaGVpZ2h
 .contentful {
   padding-top: 100px;
   padding-left: 15px;
-  min-height: 630px;
+  min-height: 800px;
 }
 
 .contentful h1 {
@@ -419,6 +419,12 @@ background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQ0MCIgaGVpZ2h
   font-size: 15px;
   color: #ffa500;
   border-left: 1px solid #eeeeee;
+}
+
+.formbutton { 
+
+  margin-top: 20px;
+
 }
 
 .summon {
