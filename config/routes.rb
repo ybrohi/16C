@@ -41,6 +41,8 @@ root 'mast_head#home'
 
   match '/safeStreets', to: 'mast_head#safestreets', via: 'get'
 
+  get 'contact', to: 'mast_head#contact'
+
 
 
 
