@@ -28,9 +28,9 @@ textarea {
   float: left;
   margin-left: 10px;
   font-family: 'Open sans', sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-  color: #B2B2B2;
+  font-size: 18px;
+  font-weight: 300;
+  color: #393939;
   letter-spacing: 1px;
   padding-top: 15px; 
   line-height: 1;
@@ -47,6 +47,22 @@ background-color: #ffffff;
 margin-left: 20px;
 
 }
+
+.navbar-brand {
+
+  margin-top: 25px;
+
+}
+
+.nav > li > a:hover {
+
+  background-color: transparent !important;
+  font-weight: bold;
+  color: #51a3a3 !important;
+
+
+}
+
 
 /* Body */
 
@@ -332,12 +348,21 @@ width: 25px;
 }
 
 .navbar-inner .nav > li > a {
-  color: #009e96;
-  font-size: 13px;
+  color: #54cccf;
+  font-size: 12px;
   font-family: 'Open Sans', sans-serif;
-  font-size: 400;
+  font-size: 300;
   padding-top: 30px;
   padding-right: 15px;
+
+  &:hover {
+
+color: #9ecf54 !important;
+font-size: 12px;
+font-weight: 300;
+
+}
+
 } 
 
 
@@ -421,8 +446,8 @@ background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQ0MCIgaGVpZ2h
   width: auto;
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
-  font-size: 15px;
-  color: #ffa500;
+  font-size: 14px;
+  color: #5c4da3;
   border-left: 1px solid #eeeeee;
 }
 
