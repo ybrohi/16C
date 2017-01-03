@@ -10,6 +10,9 @@ gem 'devise'
 gem 'newrelic_rpm'
 gem 'puma'
 
+gem 'twilio-ruby'
+gem 'figaro'
+
 group :development do
 	gem 'sqlite3', '1.3.7'
 	gem 'rspec-rails', '2.13.1'
