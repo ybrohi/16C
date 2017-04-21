@@ -1,14 +1,7 @@
+<%=Twilio::TwiML::Response.new do |r|
+r.Say 'Hello Monkey'
+end.text%>
 
-
-<% provide(:title, 'Twil') %>
-
-
-<div class="container">
-	<div class="contentful">
-
-	<%=Twilio::TwiML::Response.new do |r|
-		    r.Say 'Hello Monkey'
-		  end.text%>
-
-	</div>
+<div>
+<p> hi </p>
 </div>
