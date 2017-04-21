@@ -1,7 +1,5 @@
 class MastHeadController < ApplicationController
 
-layout false, only: [:twil]
-
 
   def home
   end
@@ -52,11 +50,6 @@ layout false, only: [:twil]
   end
 
   def nucleus
-
-  end
-  
-  def twil
-
 
   end
   

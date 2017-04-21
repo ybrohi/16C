@@ -45,8 +45,6 @@ root 'mast_head#home'
 
   get 'nucleus', to: 'mast_head#nucleus'
 
-  get 'twil', to: 'mast_head#twil'
-
   post 'twilio/voice' => 'twilio#voice'
 
 
