@@ -1,4 +1,7 @@
 class MastHeadController < ApplicationController
+
+layout false, only: [:twil]
+
   def home
   end
 
@@ -52,6 +55,7 @@ class MastHeadController < ApplicationController
   end
   
   def twil
+
   end
   
 end
