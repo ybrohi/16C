@@ -43,6 +43,10 @@ root 'mast_head#home'
 
   get 'contact', to: 'mast_head#contact'
 
+  get 'nucleus', to: 'mast_head#nucleus'
+
+  get 'twil', to: 'mast_head#twil'
+
 
 
 

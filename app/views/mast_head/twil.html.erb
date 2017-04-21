@@ -1,0 +1,12 @@
+
+
+<% provide(:title, 'Nucleus') %>
+
+
+<div class="container">
+	<div class="contentful">
+	<%= Twilio::TwiML::Response.new do |r|
+    r.Say 'Hello Monkey'
+  end.text %>
+	</div>
+</div>

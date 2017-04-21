@@ -46,6 +46,12 @@ class MastHeadController < ApplicationController
 
   def developed
   end
+
+  def nucleus
+
+  end
   
+  def twil
+  end
   
 end

@@ -32,9 +32,10 @@ gem 'coffee-rails'
 gem 'jquery-rails', '3.0.4'
 gem 'turbolinks', '1.1.1'
 gem 'jbuilder', '1.0.2'
-gem  'sass', '3.2.13'
+gem 'sass', '3.2.13'
 gem 'country_select'
 gem 'humanizer'
+gem 'sinatra'
 
 
 
