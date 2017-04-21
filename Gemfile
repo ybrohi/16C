@@ -7,7 +7,7 @@ gem 'rails', '4.0.0'
 gem 'bootstrap-sass'
 gem 'sprockets', '2.11.0'
 gem 'devise'
-gem 'newrelic_rpm'
+
 gem 'puma'
 
 gem 'twilio-ruby'
@@ -35,7 +35,7 @@ gem 'jbuilder', '1.0.2'
 gem 'sass', '3.2.13'
 gem 'country_select'
 gem 'humanizer'
-gem 'sinatra'
+
 
 
 
