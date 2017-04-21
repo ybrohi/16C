@@ -11,7 +11,10 @@ class TwilioController < ApplicationController
  
   def voice
   	response = Twilio::TwiML::Response.new do |r|
-  	  r.Say 'Hi. Thank you for call Catalyst.', :voice => 'alice'
+  	  r.Say 'Hello! Thank you for calling Catalyst Interactive Consulting. Please hold while I transfer your call', :voice => 'alice'
+  	  r.Dial '+923222786652'
+  	  r.Say 'The call failed or the remote party hung up. Goodbye.'
+  	
   	end
  
   	render_twiml response
